@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -15,9 +15,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Transistors-FETs-MOSFETs-Arrays:DMHC3025LSD-13 Q1
+L DroneV1-rescue:DMHC3025LSD-13-dk_Transistors-FETs-MOSFETs-Arrays Q1
 U 1 1 5DFED888
 P 2900 2100
+AR Path="/5DFED888" Ref="Q1"  Part="1" 
+AR Path="/5DFECE73/5DFED888" Ref="Q1"  Part="1" 
 F 0 "Q1" H 3128 2103 60  0000 L CNN
 F 1 "DMHC3025LSD-13" H 3128 1997 60  0000 L CNN
 F 2 "digikey-footprints:SOIC-8_W3.9mm" V 3100 2300 60  0001 L CNN
@@ -142,9 +144,11 @@ Wire Wire Line
 	1950 2000 2150 2000
 Connection ~ 2150 2000
 $Comp
-L dk_Transistors-FETs-MOSFETs-Arrays:DMHC3025LSD-13 Q2
+L DroneV1-rescue:DMHC3025LSD-13-dk_Transistors-FETs-MOSFETs-Arrays Q2
 U 1 1 5E009B68
 P 2900 3950
+AR Path="/5E009B68" Ref="Q2"  Part="1" 
+AR Path="/5DFECE73/5E009B68" Ref="Q2"  Part="1" 
 F 0 "Q2" H 3128 3953 60  0000 L CNN
 F 1 "DMHC3025LSD-13" H 3128 3847 60  0000 L CNN
 F 2 "digikey-footprints:SOIC-8_W3.9mm" V 3100 4150 60  0001 L CNN
@@ -269,9 +273,11 @@ Wire Wire Line
 	1950 3850 2150 3850
 Connection ~ 2150 3850
 $Comp
-L dk_Transistors-FETs-MOSFETs-Arrays:DMHC3025LSD-13 Q3
+L DroneV1-rescue:DMHC3025LSD-13-dk_Transistors-FETs-MOSFETs-Arrays Q3
 U 1 1 5E011905
 P 6000 2100
+AR Path="/5E011905" Ref="Q3"  Part="1" 
+AR Path="/5DFECE73/5E011905" Ref="Q3"  Part="1" 
 F 0 "Q3" H 6228 2103 60  0000 L CNN
 F 1 "DMHC3025LSD-13" H 6228 1997 60  0000 L CNN
 F 2 "digikey-footprints:SOIC-8_W3.9mm" V 6200 2300 60  0001 L CNN
@@ -396,9 +402,11 @@ Wire Wire Line
 	5050 2000 5250 2000
 Connection ~ 5250 2000
 $Comp
-L dk_Transistors-FETs-MOSFETs-Arrays:DMHC3025LSD-13 Q4
+L DroneV1-rescue:DMHC3025LSD-13-dk_Transistors-FETs-MOSFETs-Arrays Q4
 U 1 1 5E015789
 P 6000 3950
+AR Path="/5E015789" Ref="Q4"  Part="1" 
+AR Path="/5DFECE73/5E015789" Ref="Q4"  Part="1" 
 F 0 "Q4" H 6228 3953 60  0000 L CNN
 F 1 "DMHC3025LSD-13" H 6228 3847 60  0000 L CNN
 F 2 "digikey-footprints:SOIC-8_W3.9mm" V 6200 4150 60  0001 L CNN

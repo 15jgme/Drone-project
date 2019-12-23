@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT9193-33GB
+D 300mA, Ultra-Low Noise, Ultra-Fast CMOS LDO Regulator
+K
+F http://www.richtek.com/assets/product_file/RT9193/DS9193-17.pdf
+$ENDCMP
+#
+#End Doc Library

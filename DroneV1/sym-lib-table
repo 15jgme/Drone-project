@@ -4,4 +4,5 @@
   (lib (name dk_Transistors-FETs-MOSFETs-Single)(type Legacy)(uri "C:/Users/space/Desktop/Electronics project/digikey-kicad-library-master/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib")(options "")(descr ""))
   (lib (name 74HC14D_652)(type Legacy)(uri "C:/Users/space/Desktop/Electronics project/Untitled Drone Project/Used Libraries/74HC14D,652/KiCad/74HC14D_652.lib")(options "")(descr ""))
   (lib (name DroneV1-rescue)(type Legacy)(uri ${KIPRJMOD}/DroneV1-rescue.lib)(options "")(descr ""))
+  (lib (name RT9193-33GB)(type Legacy)(uri "C:/Users/space/Desktop/Electronics project/Untitled Drone Project/Used Libraries/rt919/RT9193-33GB.lib")(options "")(descr ""))
 )
