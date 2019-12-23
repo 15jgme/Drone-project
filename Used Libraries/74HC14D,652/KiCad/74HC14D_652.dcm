@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC14D,652
+D 74HC14D,652, Hex Schmitt Trigger Inverter, HC, 5.2mA 2 to 6V 14-Pin SOIC
+K
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf
+$ENDCMP
+#
+#End Doc Library

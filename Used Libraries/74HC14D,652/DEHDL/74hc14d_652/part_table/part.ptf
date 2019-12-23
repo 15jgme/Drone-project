@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74HC14D_652'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "74HC14D,652" (!) = "", "SOIC127P600X175-14N", "Small Outline Packages", "771-HC14D652", "https://www.mouser.com/Search/Refine.aspx?Keyword=771-HC14D652", "1130477", "http://uk.rs-online.com/web/p/products/1130477", "74HC14D,652, Hex Schmitt Trigger Inverter, HC, 5.2mA 2 to 6V 14-Pin SOIC", "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf", "1.75 mm"
+END_PART
+
+END.

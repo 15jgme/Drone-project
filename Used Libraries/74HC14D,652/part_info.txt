@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=74HC14D,652
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=3.1
+Released=2015-04-16 09:48:08
+Downloaded=2019-12-22 04:22:19
+3D=Y

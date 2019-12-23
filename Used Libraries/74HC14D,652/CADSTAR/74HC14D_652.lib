@@ -1,0 +1,18 @@
+.74HC14D_652 :1 ;74HC14D,652, Hex Schmitt Trigger Inverter, HC, 5.2mA 2 to 6V 14-Pin SOIC
+SOIC127P600X175-14N
+*STM IC
+*NGS
+*PLB 1="1A" 2="1Y" 3="2A" 4="2Y" 5="3A" 6="3Y" 7="GND" 8="4Y" 9="4A" 10="5Y" 11="5A" 12="6Y" 13="6A" 14="VCC"
+*MXP 14
+*DFN 74HC14D_652
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (74HC14D,652)
+~!Mouser Part Number (771-HC14D652)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=771-HC14D652)
+~!RS Part Number (1130477)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1130477)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf)
+~!Height (1.75mm)
+~!3D_Model (74HC14D,652)
+"74HC14D_652"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

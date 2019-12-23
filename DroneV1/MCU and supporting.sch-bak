@@ -1,0 +1,205 @@
+EESchema Schematic File Version 4
+LIBS:DroneV1-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Espressif:ESP8266EX U1
+U 1 1 5E02FEF0
+P 2850 2400
+F 0 "U1" H 3200 1200 50  0000 C CNN
+F 1 "ESP8266EX" H 3250 1100 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 2850 1100 50  0001 C CNN
+F 3 "http://espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf" H 2950 1100 50  0001 C CNN
+	1    2850 2400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 3200 2    50   Input ~ 0
+M1
+Text GLabel 4550 3100 2    50   Input ~ 0
+M2
+Text GLabel 4550 3000 2    50   Input ~ 0
+M3
+Text GLabel 4550 2900 2    50   Input ~ 0
+M4
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 5E03D474
+P 4350 3100
+F 0 "RN1" V 3933 3100 50  0000 C CNN
+F 1 "R_Pack04" V 4024 3100 50  0000 C CNN
+F 2 "" V 4625 3100 50  0001 C CNN
+F 3 "~" H 4350 3100 50  0001 C CNN
+	1    4350 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 2900 3750 2900
+Wire Wire Line
+	4150 3000 3750 3000
+Wire Wire Line
+	4150 3100 3750 3100
+Wire Wire Line
+	3750 3200 4150 3200
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5E04216A
+P 1400 2950
+F 0 "Y1" V 1500 2700 50  0000 L CNN
+F 1 "Crystal_GND24" V 1550 3300 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1400 2950 50  0001 C CNN
+F 3 "~" H 1400 2950 50  0001 C CNN
+	1    1400 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5E043F6E
+P 1400 3250
+F 0 "C3" H 1450 3350 50  0000 L CNN
+F 1 "C" H 1450 3150 50  0000 L CNN
+F 2 "" H 1438 3100 50  0001 C CNN
+F 3 "~" H 1400 3250 50  0001 C CNN
+	1    1400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E047CF8
+P 1400 3400
+F 0 "#PWR0101" H 1400 3150 50  0001 C CNN
+F 1 "GND" H 1405 3227 50  0000 C CNN
+F 2 "" H 1400 3400 50  0001 C CNN
+F 3 "" H 1400 3400 50  0001 C CNN
+	1    1400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2950 1600 3400
+Wire Wire Line
+	1600 3400 1400 3400
+Connection ~ 1400 3400
+$Comp
+L Device:C C2
+U 1 1 5E04A41A
+P 1400 2650
+F 0 "C2" H 1515 2696 50  0000 L CNN
+F 1 "C" H 1515 2605 50  0000 L CNN
+F 2 "" H 1438 2500 50  0001 C CNN
+F 3 "~" H 1400 2650 50  0001 C CNN
+	1    1400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 2500 1400 2500
+Wire Wire Line
+	1200 2500 1200 2950
+Wire Wire Line
+	1950 2700 1650 2700
+Wire Wire Line
+	1650 2700 1650 2800
+Wire Wire Line
+	1650 2800 1400 2800
+Connection ~ 1400 2800
+Wire Wire Line
+	1400 3100 1250 3100
+Wire Wire Line
+	1250 3100 1250 3700
+Wire Wire Line
+	1250 3700 1950 3700
+Wire Wire Line
+	1950 3700 1950 3200
+Connection ~ 1400 3100
+$Comp
+L power:GND #PWR?
+U 1 1 5E04EC21
+P 2850 3500
+F 0 "#PWR?" H 2850 3250 50  0001 C CNN
+F 1 "GND" H 2855 3327 50  0000 C CNN
+F 2 "" H 2850 3500 50  0001 C CNN
+F 3 "" H 2850 3500 50  0001 C CNN
+	1    2850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_Flash:W25Q32JVSS U?
+U 1 1 5E052876
+P 8000 1800
+F 0 "U?" H 8250 2400 50  0000 C CNN
+F 1 "W25Q32JVSS" H 8400 2300 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 8000 1800 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 8000 1800 50  0001 C CNN
+	1    8000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E053250
+P 8000 2200
+F 0 "#PWR?" H 8000 1950 50  0001 C CNN
+F 1 "GND" H 8005 2027 50  0000 C CNN
+F 2 "" H 8000 2200 50  0001 C CNN
+F 3 "" H 8000 2200 50  0001 C CNN
+	1    8000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E0536C8
+P 8000 1400
+F 0 "#PWR?" H 8000 1250 50  0001 C CNN
+F 1 "+3.3V" H 8015 1573 50  0000 C CNN
+F 2 "" H 8000 1400 50  0001 C CNN
+F 3 "" H 8000 1400 50  0001 C CNN
+	1    8000 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 1700 0    50   Input ~ 0
+SDIO_CMD
+Text GLabel 7500 1900 0    50   Input ~ 0
+SDIO_CLK
+Text GLabel 3750 1700 2    50   Input ~ 0
+SDIO_CMD
+Text GLabel 4700 1800 2    50   Input ~ 0
+SDIO_CLK
+Text GLabel 8500 1600 2    50   Input ~ 0
+SDIO_SD1
+Text GLabel 8500 1700 2    50   Input ~ 0
+SDIO_SD0
+Text GLabel 8500 1900 2    50   Input ~ 0
+SDIO_SD3
+Text GLabel 8500 2000 2    50   Input ~ 0
+SDIO_SD2
+Text GLabel 3750 2000 2    50   Input ~ 0
+SDIO_SD2
+Text GLabel 3750 1900 2    50   Input ~ 0
+SDIO_SD0
+Text GLabel 3750 2100 2    50   Input ~ 0
+SDIO_SD3
+Text GLabel 3750 2500 2    50   Input ~ 0
+SDIO_SD1
+$Comp
+L Device:R R?
+U 1 1 5E0554BD
+P 4550 1800
+F 0 "R?" V 4343 1800 50  0000 C CNN
+F 1 "200R" V 4434 1800 50  0000 C CNN
+F 2 "" V 4480 1800 50  0001 C CNN
+F 3 "~" H 4550 1800 50  0001 C CNN
+	1    4550 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 1800 3750 1800
+$EndSCHEMATC
