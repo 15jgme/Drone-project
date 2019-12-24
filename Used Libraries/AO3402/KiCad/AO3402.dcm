@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AO3402
+D MOSFET N-CH 30V 4.0A SOT23
+K
+F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3402_C14385.pdf
+$ENDCMP
+#
+#End Doc Library

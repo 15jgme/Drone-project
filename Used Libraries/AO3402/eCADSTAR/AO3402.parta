@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1089725"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-09-05-18:18:28)
+    (utime 2018-09-06-06:32:06)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "AO3402")
+)
+
+
+(pinAssign "ECS_1089725"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-09-05-18:18:28)
+    (utime 2018-09-06-06:32:06)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1089725")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "AO3402")
+)
+
+
+(part "AO3402"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-09-05-18:18:28)
+    (utime 2018-09-06-06:32:06)
+    (packageRef "AO3402")
+    (pinAssignRef "ECS_1089725")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "MOSFET N-CH 30V 4.0A SOT23")
+    (property "LCSC_Part_Number" "C14385")
+    (property "LCSC_Price/Stock" "https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html")
+    (property "Manufacturer_Name" "Alpha & Omega Semiconductors")
+    (property "Manufacturer_Part_Number" "AO3402")
+    (property "Datasheet_Link" "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3402_C14385.pdf")
+    (property "compAreaTopHeight" 1.25)
+)
+
+

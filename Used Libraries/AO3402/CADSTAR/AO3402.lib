@@ -1,0 +1,16 @@
+.AO3402 :1 ;MOSFET N-CH 30V 4.0A SOT23
+SOT95P280X125-3N
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN AO3402
+~!LCSC Part Number (C14385)
+~!Link LCSC Price/Stock (https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html)
+~!Manufacturer_Name (Alpha & Omega Semiconductors)
+~!Manufacturer_Part_Number (AO3402)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3402_C14385.pdf)
+~!Height (1.25mm)
+~!3D_Model (AO3402)
+AO3402
+1.1!U 2.1!U 3.1!U 

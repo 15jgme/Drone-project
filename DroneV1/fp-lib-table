@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Crystal)(type KiCad)(uri "C:/Users/space/Desktop/Electronics project/Untitled Drone Project/Used Libraries/Crystal")(options "")(descr ""))
+  (lib (name DroneV1)(type KiCad)(uri "C:/Users/space/Desktop/Electronics project/Untitled Drone Project/Drone-project/Used Libraries/DroneV1.pretty")(options "")(descr ""))
 )

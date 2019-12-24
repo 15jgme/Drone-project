@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DroneOutline
+#
+DEF DroneOutline U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "DroneOutline" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -100 -350 50 0 1 0 N
+C -100 -100 50 0 1 0 N
+C 100 -350 50 0 1 0 N
+C 100 -100 50 0 1 0 N
+S -100 -100 100 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

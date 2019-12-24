@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AO3402'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "LCSC_PART_NUMBER", "LCSC_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Alpha & Omega Semiconductors", "AO3402" (!) = "", "SOT95P280X125-3N", "SOT23 (3-Pin)", "C14385", "https://lcsc.com/product-detail/MOSFET_Alpha-Omega-Semicon_AO3402_Alpha-Omega-Semicon-AOS-AO3402_C14385.html", "MOSFET N-CH 30V 4.0A SOT23", "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3402_C14385.pdf", "1.25 mm"
+END_PART
+
+END.
